@@ -1,6 +1,12 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bluetooth_low_energy-5.0.6" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bluetooth_low_energy_android-5.0.4" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bluetooth_low_energy_darwin-5.0.5" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bluetooth_low_energy_linux-5.0.2" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bluetooth_low_energy_windows-5.0.3" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>
