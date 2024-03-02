@@ -52,8 +52,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(
+      theme: ThemeData(
         useMaterial3: true,
+        fontFamily: 'Futura',
+        scaffoldBackgroundColor: Colors.blue, // Use your desired color
+
       ).copyWith(
         materialTapTargetSize: MaterialTapTargetSize.padded,
       ),
@@ -167,12 +170,14 @@ class _ScannerViewState extends State<ScannerView> {
                   child: Text(
                     discovering ? 'END' : 'BEGIN',
                   ),
+
                 );
               },
             );
           },
         ),
       ],
+
     );
   }
 
