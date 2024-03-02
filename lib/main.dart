@@ -8,15 +8,20 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 void main() {
+
   runApp(const MyApp());
+
+  onStartUp();
 
 }
 
 void onStartUp() async {
-  Logger.root.onRecord.listen(onLogRecord);
-  WidgetsFlutterBinding.ensureInitialized();
+
+  log("Start up");
   await CentralManager.instance.setUp();
   // await peripheralManager.setUp();
+  log("Setted up");
+
 }
 
 void onCrashed(Object error, StackTrace stackTrace) {
