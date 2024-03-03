@@ -9,8 +9,6 @@ import 'package:intl/intl.dart';
 
 void main() {
 
-  runApp(const MyApp());
-
   onStartUp();
 
 }
@@ -21,6 +19,8 @@ void onStartUp() async {
   await CentralManager.instance.setUp();
   // await peripheralManager.setUp();
   log("Setted up");
+  runApp(const MyApp());
+
 
 }
 
